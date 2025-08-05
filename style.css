@@ -14,3 +14,15 @@ button {
   animation-duration: 5s;
   animation-iteration-count: 3;
 }
+
+@keyframes changebg {
+  0% {
+    background-color: teal;
+  }
+  50% {
+    background-color: orange;
+  }
+  100% {
+    background-color: purple;
+  }
+}
