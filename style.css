@@ -33,14 +33,16 @@ button {
   0% {
     background-color: black;
     color: white;
-    transform: scale(0, 2);
+    transform: scale(0, 1);
   }
   50% {
     background-color: #393142;
+    color: white;
     transform: scale(0, 2);
   }
   100% {
     background-color: #a189b5;
+    color: white;
     transform: scale(1);
   }
 }
