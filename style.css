@@ -19,11 +19,14 @@ button {
 @keyframes changebg {
   0% {
     background-color: teal;
+    transform: scale(1);
   }
   50% {
     background-color: magenta;
+    transform: scale(1);
   }
   100% {
     background-color: purple;
+    transform: scale(1);
   }
 }
