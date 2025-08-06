@@ -21,7 +21,7 @@ button {
   margin-top: 20px;
   animation-name: changebg;
   animation-duration: 5s;
-  animation-iteration-count: 5;
+  animation-iteration-count: infinite;
 }
 
 @keyframes changebg {
