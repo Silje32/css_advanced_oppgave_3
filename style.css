@@ -1,3 +1,6 @@
+main {
+  background-color: powderblue;
+}
 h1 {
   color: teal;
   font-family: "Futura";
@@ -8,6 +11,7 @@ h1 {
 img {
   width: 40%;
   margin-left: 400px;
+  margin-top: 50px;
 }
 button {
   width: 200px;
@@ -22,17 +26,18 @@ button {
   animation-name: changebg;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  animation-direction: normal;
 }
 
 @keyframes changebg {
   0% {
     background-color: black;
     color: white;
-    transform: scale(1);
+    transform: scale(0, 2);
   }
   50% {
     background-color: #393142;
-    transform: scale(1);
+    transform: scale(0, 2);
   }
   100% {
     background-color: #a189b5;
