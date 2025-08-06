@@ -1,16 +1,24 @@
 h1 {
   color: teal;
+  font-family: "Futura";
+  font-size: 50px;
   text-align: center;
+  margin-bottom: 50px;
+}
+img {
+  width: 40%;
+  margin-left: 400px;
 }
 button {
-  width: 100px;
+  width: 200px;
   height: 50px;
-  background-color: teal;
+  background-color: black;
   color: white;
   border-radius: 6px;
   font-size: 18px;
-  margin-left: 600px;
-  margin-top: 100px;
+  font-family: "Futura";
+  margin-left: 580px;
+  margin-top: 20px;
   animation-name: changebg;
   animation-duration: 5s;
   animation-iteration-count: 5;
@@ -18,15 +26,16 @@ button {
 
 @keyframes changebg {
   0% {
-    background-color: teal;
+    background-color: black;
+    color: white;
     transform: scale(1);
   }
   50% {
-    background-color: magenta;
+    background-color: #393142;
     transform: scale(1);
   }
   100% {
-    background-color: purple;
+    background-color: #a189b5;
     transform: scale(1);
   }
 }
