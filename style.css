@@ -27,6 +27,10 @@ button {
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-direction: normal;
+  transition-property: background-color;
+  transition-duration: 0, 5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.3s;
 }
 
 @keyframes changebg {
