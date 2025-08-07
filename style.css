@@ -9,14 +9,14 @@
   --light-purple: #a189b5;
 }
 h1 {
-  color: teal;
+  color: var(--teal);
   font-family: "Futura";
   font-size: 50px;
   text-align: center;
   margin-bottom: 50px;
 }
 main {
-  background-color: powderblue;
+  background-color: var(--powderblue);
   height: 500px;
 }
 img {
@@ -27,8 +27,8 @@ img {
 button {
   width: 200px;
   height: 50px;
-  background-color: black;
-  color: white;
+  background-color: var(--black);
+  color: var(--white);
   border-radius: 6px;
   font-size: 18px;
   font-family: "Futura";
@@ -53,18 +53,18 @@ button {
 
 @keyframes changebg {
   0% {
-    background-color: black;
-    color: white;
+    background-color: var(--black);
+    color: var(--white);
     transform: scale(0, 1);
   }
   50% {
-    background-color: #393142;
-    color: white;
+    background-color: var(--dark-purple);
+    color: var(--white);
     transform: scale(0, 2);
   }
   100% {
-    background-color: #a189b5;
-    color: white;
+    background-color: var(--light-purple);
+    color: var(--white);
     transform: scale(1);
   }
 }
