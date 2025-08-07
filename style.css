@@ -1,5 +1,12 @@
-main {
-  background-color: powderblue;
+/* header, h1, main, img, button */
+
+:root {
+  --powderblue: rgb(176, 224, 230);
+  --teal: rgb(0, 128, 128);
+  --black: rgb(0, 0, 0);
+  --white: rgb(255, 255, 255);
+  --dark-purple: #393142;
+  --light-purple: #a189b5;
 }
 h1 {
   color: teal;
@@ -7,6 +14,10 @@ h1 {
   font-size: 50px;
   text-align: center;
   margin-bottom: 50px;
+}
+main {
+  background-color: powderblue;
+  height: 500px;
 }
 img {
   width: 40%;
@@ -23,14 +34,21 @@ button {
   font-family: "Futura";
   margin-left: 580px;
   margin-top: 20px;
+  /* 
   animation-name: changebg;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-direction: normal;
+  animation-timing-function: linear;
+  */
+  animation: changebg 5s infinite linear;
+  /* 
   transition-property: background-color;
   transition-duration: 0, 5s;
   transition-timing-function: ease-in-out;
   transition-delay: 0.3s;
+  */
+  transition: ease-in;
 }
 
 @keyframes changebg {
