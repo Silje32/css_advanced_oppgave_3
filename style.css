@@ -23,12 +23,12 @@ h1 {
 }
 main {
   background-color: var(--powderblue);
-  min-height: 100svh;
+  min-height: 90svh;
 }
 img {
   width: 40%;
   margin-left: 400px;
-  margin-top: 50px;
+  margin-top: 45px;
 }
 button {
   width: 200px;
@@ -39,7 +39,7 @@ button {
   font-size: 18px;
   font-family: "Futura";
   margin-left: 580px;
-  margin-top: 20px;
+  margin-top: 15px;
   /* 
   animation-name: changebg;
   animation-duration: 5s;
@@ -54,7 +54,7 @@ button {
   transition-timing-function: ease-in-out;
   transition-delay: 0.3s;
   */
-  transition: ease-in;
+  transition: ease-in-out background-color 0, 5s 0.3s;
 }
 
 @keyframes changebg {
